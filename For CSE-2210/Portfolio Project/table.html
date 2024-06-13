@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Table</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+
+    <body>
+        <header>
+            <div><a href="index.html"><img src="Images/profile.jpg" alt="logo"></a></div>
+            <div>
+                <h1>MY WEBSITE</h1>
+            </div>
+            <div class="search">
+                <input placeholder="Search Here" class="search-input">
+                <a href="index.html" class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+        </header>
+        
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login_form.html">Form</a>
+            <a href="table.html">Table</a>
+            <a href="news_portal.html">News Portal</a>
+            <a href="image.html">Image</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="table-part">
+            <h4>This is a sample table...</h4>
+            <table>
+                <tr>
+                    <th>Title 1</th>
+                    <th>Title 2</th>
+                    <th>Title 3</th>
+                    <th>Title 4</th>
+                    <th>Title 5</th>
+                </tr>
+                <tr>
+                    <td>Cell 11</td>
+                    <td>Cell 12</td>
+                    <td>Cell 13</td>
+                    <td>Cell 14</td>
+                    <td>Cell 15</td>
+                </tr>
+                <tr>
+                    <td>Cell 21</td>
+                    <td>Cell 22</td>
+                    <td rowspan="2" colspan="2" class="extend">Rowsapn Colspan</td>
+                    <td>Cell 25</td>
+                </tr>
+                <tr>
+                    <td>Cell 31</td>
+                    <td>Cell 32</td>
+                    <td>Cell 35</td>
+                </tr>
+                <tr>
+                    <td>Cell 41</td>
+                    <td>Cell 42</td>
+                    <td>Cell 43</td>
+                    <td>Cell 44</td>
+                    <td>Cell 45</td>
+                </tr>
+            </table>
+        </div>
+        
+    </body>
+</html>

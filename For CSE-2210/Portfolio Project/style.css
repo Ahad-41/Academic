@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin-bottom: 100px;
+}
+
+/* header start */
+header {
+    display: flex;
+    height: 70px;
+    color: gainsboro;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 25px;
+    background-color: #131921;
+}
+header img {
+    height: 60px;
+    width: auto;
+    border-radius: 50%;
+    background-size: cover;
+}
+header img:hover {
+    opacity: 0.85;
+}
+
+header .search {
+    width: 12%;
+    height: 32px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 7px;
+}
+
+header .search:hover {
+    border: 2px solid orange;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 0.85rem;
+    border: 6px solid white;
+    border-radius: 7px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.search-icon {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+    text-decoration: none;
+}
+/* header done */
+
+/* navbar start */
+nav {
+    background-color: #232F3E;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: gainsboro;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+    text-decoration:underline;
+}
+/* navbar done */
+
+/* index.html start */
+.hero {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.main-part {
+    margin-top: 30px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.main-part img {
+    width: 30%;
+    height: auto;
+    background-size: cover;
+    margin: 10px;
+}
+/* done index.html */
+
+/* start login form */
+.login-form {
+    width: 26%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #4CAF50;
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: 37%;
+}
+
+.login-form h3 {
+    color: #4CAF50;
+    font-size: 30px;
+}
+
+.login-form label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+}
+
+.login-form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid  gray;
+    border-radius: 5px;
+}
+
+.login-form button {
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #4CAF50;
+    width: 90%;
+    font-size: 1rem;
+}
+
+.login-form button:hover {
+    opacity: 0.8;
+}
+
+.login-form .wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form a {
+    text-decoration: none;
+}
+.login-form a:hover {
+    text-decoration: underline;
+}
+
+/* done login-form.html */
+
+/* start signup form */
+.signup-form {
+    width: 26%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #4CAF50;
+    border-radius: 15px;
+    padding: 30px;
+    margin-left: 37%;
+    margin-top: 10px;
+}
+
+.signup-form h3 {
+    color: #4CAF50;
+    font-size: 20px;
+}
+
+.signup-form label {
+    display: block;
+    width: 100%;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.signup-form input {
+    display: block;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid  gray;
+    border-radius: 5px;
+}
+.signup-form .gender {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.signup-form .gender p {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.signup-form .gender label {
+    text-align: left;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    color: #555;
+    font-weight: normal;
+}
+
+.signup-form button {
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #4CAF50;
+    width: 90%;
+    font-size: 1rem;
+}
+
+.signup-form .wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-form a {
+    text-decoration: none;
+}
+.signup-form a:hover {
+    text-decoration: underline;
+}
+
+/* done signup-form.html */
+
+/* start table part */
+
+.table-part h4{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.table-part table {
+    height: 300px;
+    width: 98%;
+    margin: 1%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.table-part td, th {
+    border: 1px solid #ddd;
+    padding: 2px;
+}
+
+.table-part th {
+    padding: 5px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+    text-align: center;
+}
+
+.table-part tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-part tr:hover {
+    background-color: #ddd;
+}
+
+.table-part .extend {
+    background-color: #FEBD68;
+}
+
+/* end table.html */
+
+/* start news portal */
+.news-portal p {
+    padding-bottom: 10px;
+    text-align: center;
+    color: red;
+}
+.news-portal table {
+    border-collapse: collapse;
+    width: 98%;
+    margin: 1%;
+}
+
+.news-portal td {
+    border: 1px solid;
+    text-align: center;
+    height: 150px;
+    width: 300px;
+}
+
+.news-portal img {
+    height: 100%;
+    width: 100%;
+    object-fit:contain;
+}
+/* end news portal */
+
+/* start image part */
+.image-h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.image-part {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.image-part img {
+    height: 200px;
+    width: auto;
+    padding: 2px;
+}
+/* end image part */
+
+/* start contact part  */
+.contact-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-part .left {
+    margin-left: 20px;
+}
+
+.contact-part .right {
+    margin-right: 30px;
+    text-align: right;
+    align-content: center;
+}
+
+.contact-part button {
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #4CAF50;
+    width: 100px;
+    font-size: 1rem;
+}
+/* end contact part  */

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Apply</title>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <div><h2>EDGE: BU-CSE Digital Skills Training</h2></div>
+        </header>
+
+        <nav>
+            <a href="index.html">Announcement</a>
+            <a href="offered_course.html">Offered Courses</a>
+            <a href="apply_online.html">Apply Online</a>
+        </nav>
+
+        <div class="signup-form">
+            <form action="">
+                <h3>Application Form</h3>
+                <label for="name">Name:</label>
+                <input type="text" id="first" name="first" placeholder="Enter your Name" required style="margin-left: 80px;"><br>
+        
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone" name="phone" placeholder="Enter your Phone Number" required style="margin-left: 10px;"><br>
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="Enter your Email" required style="margin-left: 85px;"><br>
+                
+                <label style="margin-right: 70px;">Gender:</label>
+                <div class="gender">
+                    <p>
+                        <input class="w3-radio" type="radio" name="gender" id="m1" value="male" checked>
+                        <label for="m1">Male</label>
+                    </p>
+                    <p>
+                        <input class="w3-radio" type="radio" name="gender" id="m2" value="female">
+                        <label for="m2">Female</label>
+                    </p>
+                    <p> 
+                </div><br>
+
+                <label for="date">Date of Birth:</label>
+                <input type="date" name="date" required style="margin-left: 30px;"><br>
+
+                <label for="institute">Your Institute:</label>
+                <input type="institute" name="date" required placeholder="Enter your Institute" style="margin-left: 22px;">
+
+                <label>Choose Program:</label>
+                <select name="division">
+                    <option value="1">Basic Networking</option>
+                    <option value="2">Database Management</option>
+                    <option value="3">Basic Web Development</option>
+                    <option value="4">Basic Programming With Python</option>
+                    <option value="5">Mobile Application Development</option>
+                    <option value="6">Computer Fundamentals and Office Application</option>
+                </select> <br><br>
+                
+                <div class="wrap">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+
+        <footer>
+            <p>Developed and maintained by Ahad. &copy; 2024</p>
+        </footer>
+    </body>
+</html>

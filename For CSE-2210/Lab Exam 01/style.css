@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    margin-bottom: 30px;
+}
+
+/* header start */
+header {
+    display: flex;
+    height: 70px;
+    color: gainsboro;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 25px;
+    background-color: #131921;
+}
+/* header done */
+
+/* navbar start */
+nav {
+    background-color: #232F3E;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: gainsboro;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+    /* text-decoration:underline; */
+    background-color: rgb(99, 97, 97);
+}
+/* navbar done */
+
+/* index.html start */
+.hero {
+    height: 250px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.main-part {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.list {
+    padding: 20px;
+}
+
+/* done index.html */
+
+/* start signup form */
+.signup-form {
+    width: 30%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #4CAF50;
+    border-radius: 15px;
+    padding: 30px;
+    margin-left: 35%;
+    margin-top: 10px;
+}
+
+.signup-form form h3 {
+    color: #4CAF50;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.signup-form label {
+    display: inline;
+    width: 100%;
+    text-align: left;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.signup-form input {
+    display: inline;
+    margin-bottom: 15px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid  gray;
+    border-radius: 5px;
+}
+.signup-form .gender {
+    margin-top: 10px;
+    display: inline;
+}
+.signup-form .gender p {
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.signup-form .gender label {
+    text-align: left;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    color: #555;
+    font-weight: normal;
+}
+
+.signup-form button {
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #4CAF50;
+    width: 90%;
+    font-size: 1rem;
+}
+
+.signup-form .wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-form button:hover {
+    opacity: 0.85;
+}
+
+.signup-form select {
+    height: 35px;
+    border-radius: 5px;
+}
+/* done signup-form.html */
+
+/* start offered course part */
+
+.table-part h3{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.table-part table {
+    height: 300px;
+    width: 98%;
+    margin: 1%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.table-part td, th {
+    border: 1px solid #ddd;
+    padding: 3px;
+}
+
+.table-part th {
+    padding: 5px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+    text-align: center;
+}
+
+.table-part tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.table-part tr:hover {
+    background-color: #ddd;
+}
+
+/* end ofrred course.html */
+
+footer {
+    height: 50px;
+    color: white;
+    margin-top: 50px;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: #131921;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}

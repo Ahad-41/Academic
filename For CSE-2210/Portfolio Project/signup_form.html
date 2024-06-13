@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up</title>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <div><a href="index.html"><img src="Images/profile.jpg" alt="logo"></a></div>
+            <div>
+                <h1>MY WEBSITE</h1>
+            </div>
+            <div class="search">
+                <input placeholder="Search Here" class="search-input">
+                <a href="index.html" class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+        </header>
+        
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login_form.html">Form</a>
+            <a href="table.html">Table</a>
+            <a href="news_portal.html">News Portal</a>
+            <a href="image.html">Image</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="signup-form">
+            <h3>Registration Form</h3>
+            <form action="">
+                <label for="first">Name:</label>
+                <input type="text" id="first" name="first" placeholder="Enter your Username" required>
+        
+                <label for="password">Email:</label>
+                <input type="text" id="email" name="email" placeholder="Enter your Email" required>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="Enter your Password" required>
+
+                <label>Gender:</label>
+                <div class="gender">
+                    <p>
+                        <input class="w3-radio" type="radio" name="gender" id="m1" value="male" checked>
+                        <label for="m1">Male</label>
+                    </p>
+                    <p>
+                        <input class="w3-radio" type="radio" name="gender" id="m2" value="female">
+                        <label for="m2">Female</label>
+                    </p>
+                    <p> 
+                </div>
+
+                <label>Division:</label>
+                <select name="division">
+                    <option value="1">Barishal</option>
+                    <option value="2">Chattogram</option>
+                    <option value="3">Dhaka</option>
+                    <option value="4">Khulna</option>
+                    <option value="5">Rajshahi</option>
+                    <option value="6">Rangpur</option>
+                    <option value="7">Mymensingh</option>
+                    <option value="8">Sylhet</option>
+                </select> <br><br>
+                
+                <div class="wrap">
+                    <button type="submit">Submit</button>
+                </div>
+
+                <p>
+                    Already have an account?
+                    <a href="login_form.html"> Log In</a>
+                </p>
+            </form>
+        </div>
+    </body>
+
+</html>
