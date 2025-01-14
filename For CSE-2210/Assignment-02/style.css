@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    color: #333;
+    padding: 15px;
+}
+
+.left-part {
+    display: flex;
+    align-items: center;
+}
+
+.left-part img {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+nav {
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #333;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #00796b;
+}
+
+.hero-section {
+    background-color: #00796b;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero-section button {
+    padding: 12px 20px;
+    background-color: #333;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.hero-section button:hover {
+    background-color: #555;
+}
+
+.marketing {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 40px;
+    background-color: #ffffff;
+}
+
+.marketing-box h4 {
+    color: #00796b;
+    margin-bottom: 10px;
+}
+
+.marketing-box p {
+    color: #333;
+}
+
+.featured-products {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f5f5f5;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    max-width: 300px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.card button {
+    background-color: #00796b;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.card button:hover {
+    background-color: #005b4f;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .main-header, .marketing {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav {
+        flex-direction: column;
+    }
+    .card {
+        flex: 1 1 calc(50% - 40px); 
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-section {
+        padding: 50px 20px;
+    }
+    .marketing {
+        flex-direction: column;
+    }
+    nav a {
+        margin: 10px 0;
+    }
+    .card {
+        flex: 1 1 100%;
+    }
+}
